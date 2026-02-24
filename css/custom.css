@@ -459,6 +459,13 @@ a:focus{
 /************************************/
 /**** 	   03. Header css		 ****/
 /************************************/
+.heroSlider,
+.heroSlider .swiper-slide,
+.heroSlider .hero-metal {
+  height: 90vh;
+  min-height: 90vh;
+}
+
 
 .topbar{
 	background: linear-gradient(90deg, var(--accent-secondary-color) 0%, var(--accent-color) 100%);
@@ -6639,7 +6646,7 @@ header.main-header .header-sticky.active{
 	background: url('../images/hero-bg-image-metal.jpg') no-repeat;
 	background-position: center center;
 	background-size: cover;
-	padding: 195px 0 90px;
+	padding: 255px 0px 90px 0px;
 	overflow: hidden;
 }
 
@@ -11063,5 +11070,6 @@ header.main-header .header-sticky.active{
 	width: 250px;
 	
 }
+
 }
 
